@@ -43,7 +43,7 @@ wget -q -O /etc/slowdns/slowdns-start "https://raw.githubusercontent.com/Ezanwan
 wget -q -O /etc/slowdns/slowdns-stop "https://raw.githubusercontent.com/Ezanwann/DNS-AGN/main/stopdns"
 wget -q -O /etc/slowdns/slowdns-restart "https://raw.githubusercontent.com/Ezanwann/DNS-AGN/main/ssh/restartdns"
 wget "https://raw.githubusercontent.com/Ezanwann/DNS-AGN/main/slowdns"
-cp slowdns /bin
+cp slowdns /bin/
 cd
 chmod +x /etc/slowdns/server.key
 chmod +x /etc/slowdns/server.pub
